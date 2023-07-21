@@ -1,0 +1,18 @@
+{
+  "name": "sync-net",
+  "version": "0.1.0",
+  "main": "app.js",
+  "author": "realloon",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./app.js",
+    "serve": "node ./app.js"
+  },
+  "dependencies": {
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.0",
+    "lowdb": "^6.0.1"
+  },
+  "type": "module"
+}
